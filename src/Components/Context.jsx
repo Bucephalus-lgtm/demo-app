@@ -23,7 +23,7 @@ function reducer(state,action)
             }
             return {arr:newCopy}
     }
-    default : throw new Error("karna kya chhahte ho")
+    default : throw new Error("Error!")
     }
 }
 
